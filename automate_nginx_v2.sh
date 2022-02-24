@@ -22,5 +22,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+apt-get update -y && apt-get upgrade -y
 apt-get install -y nginx
 echo "Hello World from updated host" $HOSTNAME "!" | sudo tee /var/www/html/index.html
